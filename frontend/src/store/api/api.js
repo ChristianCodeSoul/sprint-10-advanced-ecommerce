@@ -3,9 +3,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const api = createApi({
     reducerPath: "api",
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:4000/api",
+        baseUrl: "https://sprint-10-advanced-ecommerce-api.onrender.com/api",
     }),
-    
+
     tagTypes: ["Product", "User", "Order"],
     endpoints: (builder) => ({
       
